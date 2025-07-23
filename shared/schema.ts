@@ -55,6 +55,10 @@ export const nftsRelations = relations(nfts, ({ one }) => ({
   }),
 }));
 
+
+// Drizzle ORM expects a schema object for type-safe usage
+export const schema = { users, nfts };
+
 // Types
 export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
