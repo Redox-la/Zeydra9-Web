@@ -1,0 +1,124 @@
+🛸 Zeydra9 NFT Website — Full Design Brief for Replit
+
+🌌 Theme & Concept
+
+A futuristic, sci-fi website showcasing the Zeydra9 NFT collection — a rare group of 50 extraterrestrial beings from the fictional planet Zeydra-9. The visual aesthetic is inspired by doms.fun, but with a space/sci-fi twist.
+
+
+---
+
+🎨 Design Goals
+
+Cosmic, immersive experience
+
+Animated UI (spaceship, planet, stars)
+
+Clean, minimal UI focused on minting + lore
+
+
+
+---
+
+🖼 UI Sections
+
+1. Hero Section (Landing Area)
+
+Animated Background:
+
+Flying spaceship moves across the screen
+
+Purple planet orbits slowly in background
+
+Shooting stars occasionally pass
+
+
+Title: Zeydra9: Not From Earth (Animated fade/slide-in)
+
+Description:
+
+> "An NFT signal from another galaxy. 50 extraterrestrial lifeforms known only as Zeydra9. You were never meant to find this..."
+
+
+
+Buttons:
+
+🔮 Enter Galaxy → Scroll to Lore
+
+🛸 Mint Now → Magic Eden Presale
+
+🌐 View on Magic Eden → Marketplace
+
+
+Animations: Use Framer Motion or GSAP for fade-in, scroll reveal, button hover/tap.
+
+
+
+---
+
+2. Collection Showcase
+
+Grid of 50 NFT images (load dynamically or placeholder for now)
+
+Hover: Zoom-in effect, glow border
+
+Filter: “Show All / Minted / Available”
+
+
+
+---
+
+3. Lore Section
+
+Title: “The Message”
+
+Typewriter-style animated text revealing lore bit by bit:
+
+> “They came from lightyears away... Not to invade... but to find someone who would believe.”
+
+
+
+Space ambient music optional (muted by default)
+
+
+
+---
+
+4. Footer
+
+Twitter icon
+
+Discord link
+
+Wallet connection (Phantom/Solflare via @solana/wallet-adapter)
+
+Credit: “Created on Magic Eden • Powered by Solana”
+
+
+
+---
+
+🧱 Tech Stack
+
+Frontend: React + TailwindCSS + Framer Motion
+
+Blockchain: Solana
+
+Wallet Adapter: Solflare, Phantom (via @solana/wallet-adapter-react)
+
+Deployment: Replit
+
+Minting Button: Link to Magic Eden presale (can be iframe embedded or simple redirect)
+
+
+
+---
+
+🛠 Enhancements
+
+Space ambience sound loop (can toggle mute/unmute)
+
+Dark mode always-on
+
+Dynamic starfield using three.js or CSS canvas particles
+
+Mobile optimized with bottom CTA sticky buttons
