@@ -42,12 +42,12 @@ export default function Footer() {
           
           <div className="text-center md:text-right">
             <p className="text-gray-400 text-sm">Created on Magic Eden</p>
-            <p className="text-gray-400 text-sm">Powered by Solana</p>
+            <p className="text-gray-400 text-sm">Powered by Ethereum</p>
           </div>
         </motion.div>
         
         <div className="border-t border-cosmic-accent/20 mt-8 pt-8 text-center">
-          <p className="text-gray-500">&copy; 2024 Zeydra9. All rights reserved. | A message from beyond the stars.</p>
+          <p className="text-gray-500">&copy; 2025 Zeydra9. All rights reserved. | A message from beyond the stars.</p>
         </div>
       </div>
     </footer>
